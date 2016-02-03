@@ -19,7 +19,7 @@
 
 textures/metro/skybox
 {
-	qer_editorimage textures/metro/env/kosad_nuages
+	qer_editorimage env/metro/kosad_nuages
 
 	q3map_sunExt .66 .63 .53 100 350 60 2 4
 	q3map_skyLight 120 3
@@ -29,11 +29,11 @@ textures/metro/skybox
 	surfaceparm nodlight
 	surfaceparm sky
 
-	skyparms textures/metro/env/sky 256 -
+	skyparms env/metro/sky 256 -
 	nopicmip
 
 	{
-		map textures/metro/env/kosad_nuages
+		map env/metro/kosad_nuages
 		tcmod scale 6 6
 		tcmod scroll -.0001 -.005
 		rgbgen wave sin .8 .6 0 .002
