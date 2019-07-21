@@ -1913,15 +1913,15 @@ models/mapobjects/KOsAD/lanterne/LumiereDiffuse32
 
                     //****** Bougie ******//
                     
-//Backlight
+//Backlight a effacer !!
 models/mapobjects/KOsAD/bougie/Lumiere
 {
 	qer_editorimage models/mapobjects/KOsAD/bougie/Lumiere.jpg
 	qer_trans .2
 
-	q3map_surfacelight 10000000
-	q3map_lightrgb .9 .85 .6
-	q3map_backsplash 80 2
+	//q3map_surfacelight 10000
+	//q3map_lightrgb .9 .85 .6
+	//q3map_backsplash 80 2
 
 	{
 		map $lightmap

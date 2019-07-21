@@ -1,9 +1,9 @@
 ##################################
 # Game: Tremulous                #
 # Map: Metro                     #
-# Version: Beta 1.1              #
-# Filename: map-metro-b1-1.pk3   #
-# Date: 03/09/07                 #
+# Version: Beta 1.2              #
+# Filename: map-metro-b1-2.pk3   #
+# Date: 03/12/07                 #
 # Author: KOsAD                  #
 # Contact: kosad93@gmail.com     #
 ##################################
@@ -34,6 +34,15 @@ Creative Commons Attribution-Noncommercial-Share Alike 2.0 France
 
   Update:
   *******
+    #Beta 1.2 (urgent update again :()
+      - Console warnings: CM_GridPlane unresolvable and mac crash fixed
+      - cracks on the low pillar fixed
+      - invisible alien spawn fixed (humans can win now :p)
+      - random train passage removed for beta (it comes every 5min now, don't miss it ;))
+      - removed a lot of empty func_group
+      - turned off a light in staircase entrance
+      - a candle added near low pillar
+
     #Beta 1.1 (urgent update)
       - map name in level start fixed
       - .arena added
@@ -55,8 +64,9 @@ an air vent. The two doors will open two minutes after game start. Nevertheless,
 (and only humans) can open them before, just in getting close.
 Air vent is not time triggered, any player can open it from inside.
 
+(** Removed because entities with a health key count as alien spawn in Tremulous 1.1.0
   The platform near the escalator can be reached (humans with no jetpack or tricky
-nade/luci jump) by firing a small button under the ladder.
+nade/luci jump) by firing a small button under the ladder. **)
 
 
  b) Gameplay
@@ -75,12 +85,12 @@ default base to base using regular ways vs ~25s through vent).
 III/ Construction
 -----------------
 
- a) About the map (beta1 stat)
+ a) About the map (beta 1 stats)
  ****************
 
   Design: ~4 month [5715 brushes; 997 entities]
   Compile: ~21min [Pentium M 1.73GHz]
-    .BSP:    61s   [-meta -custinfoparms -samplesize 8]
+    .BSP:    68s   [-meta -custinfoparms -samplesize 8]
     .Vis:    71s   [-vis -hint]
     .Light:  1149s [-light -fast -filter -patchshadows -super 2 -samples 2]
 
@@ -106,11 +116,8 @@ If you know how to solve one of this problem, please email me.
 
  *Sunlight bleeding: in staircase and line 13 station.
 
- *Cracks: on the low pillar in stone quarry.
-
  *Models: can't be lightgrid illuminated AND shader patched.
 
- *Console warnings: CM_GridPlane unresolvable
 
 [PARTIALLY SOLVED]
  *Looped sounds: don't depend of vis portal and can be heard from everywhere
@@ -120,12 +127,23 @@ So I triggered all target_speaker with a func_timer for each sound. There is
 still a problem with this solution because in the worst case, when you enter
 a vis portal emitting a sound, you must wait the sound currently playing stop
 and restart to hear it. So this works better with small sounds length (<~4s).
+ *Cracks: on the low pillar in stone quarry. I simply have merged the old pillar
+with beta 1.2. Brushes are not merged optimized, and it may exist some other cracks
+somewhere else in the quarry/catacombs.
+
 
 [SOLVED]
  *Dynamic lights: have very bad results on performance. So they must be used in
 very close area. However, I needed crypt/aqueduct/catacombs/quarry area to be
 dynamically lighted to simulate a fire noise. So I patched all textures used there.
 I gained ~100FPS.
+ *func_train whitout target: I added a target key to the func_train.
+ *Console warnings: CM_GridPlane unresolvable. Those warnings cause beta1.1 to
+crash for Mac user. After getting a crash log from Elaum, I found two patches
+were badly build (Entites 860 & 861): Fixed points and controls points were mixed
+in only one point. I simply have redrawn those two patches, in paying much more
+attention to mixing points.
+
 
 
 
@@ -231,4 +249,6 @@ VI/ Thanks
 ----------
 
   Thanks to the authors mentionned above, to all trem dev and Timbo,
-LordSquart, CH4NDL3R, Soubok , Greudin and ydnar for his q3map2.
+LordSquart, CH4NDL3R, Soubok for tips
+Greudin, Tuple, Thorn, tHc team for hosting
+and ydnar for his q3map2.
