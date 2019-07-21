@@ -1,11 +1,12 @@
-##############################
-# Game: Tremulous            #
-# Map: Metro                 #
-# Version: Beta 1            #
-# Date: 04/04/07             #
-# Author: KOsAD              #
-# Contact: kosad93@gmail.com #
-##############################
+##################################
+# Game: Tremulous                #
+# Map: Metro                     #
+# Version: Beta 1.1              #
+# Filename: map-metro-b1-1.pk3   #
+# Date: 03/09/07                 #
+# Author: KOsAD                  #
+# Contact: kosad93@gmail.com     #
+##################################
 
 
 Contents
@@ -30,6 +31,18 @@ Creative Commons Attribution-Noncommercial-Share Alike 2.0 France
 
   Website: http://kosad93.googlepages.com
 
+
+  Update:
+  *******
+    #Beta 1.1 (urgent update)
+      - map name in level start fixed
+      - .arena added
+      - escalators have been removed
+      - "glurp" sounds added [for servers not owning pulse]
+      - lights near escalators have been increased a little bit
+      - "Train corner without a target" fixed
+      - crypt vault optimized a bit
+      - dynamic advertisment test
 
 II/ Manual
 ----------
@@ -62,14 +75,14 @@ default base to base using regular ways vs ~25s through vent).
 III/ Construction
 -----------------
 
- a) About the map
+ a) About the map (beta1 stat)
  ****************
 
   Design: ~4 month [5715 brushes; 997 entities]
   Compile: ~21min [Pentium M 1.73GHz]
-    .BSP:    68s   [-meta -custinfoparms -samplesize 8]
+    .BSP:    61s   [-meta -custinfoparms -samplesize 8]
     .Vis:    71s   [-vis -hint]
-    .Light:  1149S [-light -fast -filter -patchshadows -super 2 -samples 2]
+    .Light:  1149s [-light -fast -filter -patchshadows -super 2 -samples 2]
 
 
  b) Tools
@@ -96,6 +109,8 @@ If you know how to solve one of this problem, please email me.
  *Cracks: on the low pillar in stone quarry.
 
  *Models: can't be lightgrid illuminated AND shader patched.
+
+ *Console warnings: CM_GridPlane unresolvable
 
 [PARTIALLY SOLVED]
  *Looped sounds: don't depend of vis portal and can be heard from everywhere
