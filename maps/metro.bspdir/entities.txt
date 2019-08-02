@@ -1,0 +1,1700 @@
+{
+"classname" "worldspawn"
+"_style2rgbgen" "wave triangle 0 .5 0 .8"
+"_style3rgbgen" "wave triangle 0 .6 .3 .8"
+"_style4rgbgen" "wave square 0 .5 .4 .6"
+"message" "Metro [Beta 1.2]"
+}
+{
+"classname" "info_player_intermission"
+"origin" "0 -992 200"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-832 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-1344 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-1856 -2800 371"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-2368 -2800 301"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-320 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "896 -1952 632"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "misc_light_flare"
+"origin" "3840 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "team_human_spawn"
+"origin" "208 -240 488"
+"angle" "180"
+}
+{
+"classname" "team_human_reactor"
+"origin" "400 -56 504"
+}
+{
+"classname" "team_human_armoury"
+"origin" "80 -48 512"
+"angle" "-90"
+}
+{
+"classname" "team_human_medistat"
+"origin" "168 -48 504"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-128 24 504"
+"angle" "180"
+}
+{
+"classname" "team_human_spawn"
+"origin" "344 -360 504"
+"angle" "90"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "248 -136 504"
+"angle" "180"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-144 -176 504"
+"angle" "180"
+}
+{
+"classname" "target_speaker"
+"origin" "128 1952 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-1216 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -2144 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -1120 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -608 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -96 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 416 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 928 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-1184 776 240"
+"noise" "sound/metro/halleck_jacobsladdersingle2"
+"targetname" "nb_del"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -1632 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "128 1440 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 1952 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-1216 -2720 328"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "384 -608 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "384 -96 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "384 416 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "384 928 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1632 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 1440 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-704 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-192 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "832 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "1344 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "1856 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "2368 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-1184 792 244"
+"psName" "metro/sparks_p"
+"spawnflags" "1"
+"targetname" "nbp"
+}
+{
+"classname" "func_door"
+"targetname" "porte_secondaire"
+"angle" "-1"
+"speed" "34"
+"sound1to2" "sound/metro/dobroide_parking.door.bin-1to2"
+"soundPos2" "sound/metro/dobroide_parking.door.bin-pos2"
+"lip" "14"
+"wait" "9999"
+"spawnflags" "4"
+"model" "*1"
+}
+{
+"classname" "trigger_equipment"
+"wait" "-1"
+"target" "porte_sec_trigger"
+"model" "*2"
+}
+{
+"classname" "trigger_always"
+"origin" "64 -376 656"
+"target" "door_opening"
+}
+{
+"classname" "target_delay"
+"origin" "64 -408 608"
+"wait" "120"
+"targetname" "door_opening"
+"target" "porte_sec_trigger"
+}
+{
+"classname" "target_print"
+"origin" "64 -440 632"
+"targetname" "door2"
+"message" "Doors opening in 2 minutes."
+}
+{
+"classname" "target_delay"
+"origin" "64 -408 656"
+"wait" "13"
+"targetname" "door_opening"
+"target" "built"
+}
+{
+"classname" "target_print"
+"origin" "64 -440 656"
+"targetname" "built"
+"message" "Dont forget to ^1build ^7!"
+}
+{
+"classname" "target_delay"
+"origin" "64 -352 608"
+"targetname" "door_opening"
+"wait" "120"
+"target" "porte_gril_trigger"
+}
+{
+"classname" "target_delay"
+"origin" "64 -408 632"
+"targetname" "door_opening"
+"target" "door2"
+"wait" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "2880 -2720 344"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "path_corner"
+"origin" "-112 -7040 64"
+"targetname" "train1"
+"target" "train2"
+"wait" "0"
+"speed" "1000"
+}
+{
+"classname" "path_corner"
+"origin" "112 -7040 64"
+"targetname" "train2"
+"target" "train3"
+"speed" "1000"
+"wait" "9999"
+}
+{
+"classname" "path_corner"
+"origin" "112 4608 64"
+"targetname" "train3"
+"target" "train4"
+"speed" "1000"
+"wait" "0"
+}
+{
+"classname" "path_corner"
+"origin" "-112 4608 64"
+"targetname" "train4"
+"target" "train1"
+"speed" "1000"
+"wait" "9999"
+}
+{
+"classname" "target_speaker"
+"origin" "128 1952 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -2144 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -1120 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -608 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -96 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 416 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 928 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 -1632 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "128 1440 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 1952 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -2144 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1120 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1632 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 1440 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_delay"
+"origin" "-40 -944 152"
+"target" "train"
+"targetname" "train_delay"
+"wait" "5"
+"comment" "start"
+}
+{
+"classname" "target_delay"
+"origin" "40 -944 152"
+"target" "train"
+"targetname" "train_delay"
+"wait" "2"
+"comment" "stop"
+}
+{
+"classname" "target_delay"
+"origin" "0 -944 128"
+"target" "metro_sound"
+"targetname" "train_delay"
+"wait" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -608 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -96 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 416 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 928 32"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1120 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -608 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -96 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 416 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 928 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-376 -608 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-376 -96 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-376 416 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-376 928 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -2144 56"
+"noise" "sound/metro/marec_metro"
+"targetname" "metro_sound"
+}
+{
+"classname" "func_timer"
+"origin" "0 -944 176"
+"target" "train_delay"
+"wait" "300"
+"spawnflags" "1"
+"random_tmp" "60"
+}
+{
+"classname" "func_train"
+"target" "train2"
+"speed" "1000"
+"targetname" "train"
+"origin" "0 -7040 64"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "porte_secondaire"
+"targetname" "porte_sec_trigger"
+"wait" "-1"
+"model" "*4"
+}
+{
+"classname" "misc_portal_surface"
+"origin" "1888 -2240 176"
+}
+{
+"classname" "target_speaker"
+"origin" "-1496 -160 632"
+"noise" "sound/metro/emmanuel_monaco_street_ambiance"
+"targetname" "sound_street"
+}
+{
+"classname" "target_speaker"
+"origin" "1336 -896 560"
+"noise" "sound/metro/fractal_dimension_low_freq_rumble"
+"targetname" "sound_vents"
+}
+{
+"classname" "target_speaker"
+"origin" "-608 -272 664"
+"noise" "sound/metro/fractal_dimension_low_freq_rumble"
+"targetname" "sound_vents"
+}
+{
+"classname" "func_timer"
+"origin" "0 -1120 32"
+"target" "sound_wind"
+"wait" "5"
+"spawnflags" "1"
+}
+{
+"classname" "func_timer"
+"origin" "0 -384 672"
+"spawnflags" "1"
+"target" "sound_vents"
+"wait" "3"
+}
+{
+"classname" "target_speaker"
+"origin" "-1560 -160 632"
+"noise" "sound/metro/emmanuel_monaco_street_ambiance_1"
+"targetname" "sound_street_1"
+}
+{
+"classname" "func_timer"
+"origin" "624 -120 592"
+"spawnflags" "1"
+"target" "sound_street"
+"wait" "2"
+}
+{
+"classname" "func_timer"
+"origin" "640 -56 592"
+"spawnflags" "1"
+"wait" "100"
+"random" "20"
+"target" "sound_street_1"
+}
+{
+"classname" "target_speaker"
+"origin" "320 -1000 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 -1000 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 928 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "320 928 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 416 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "320 416 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 -96 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "320 -96 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "-320 -608 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "320 -608 184"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "1264 -1280 576"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "1264 -1720 432"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "912 -1280 576"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "912 -1720 432"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "224 -272 632"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "224 -576 632"
+"targetname" "sound_pick"
+"noise" "sound/metro/metro messaj pickpocket"
+}
+{
+"classname" "target_speaker"
+"origin" "-80 -2560 384"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "1856 -2560 384"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "1344 -2560 384"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "832 -2560 384"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "target_speaker"
+"origin" "320 -2560 384"
+"noise" "sound/metro/metro messaj pickpocket"
+"targetname" "sound_pick"
+}
+{
+"classname" "func_timer"
+"origin" "224 -392 632"
+"target" "sound_pick"
+"spawnflags" "1"
+"wait" "300"
+"random" "30"
+}
+{
+"classname" "target_location"
+"origin" "840 -1152 -176"
+"count" "4"
+"message" "Egouts Est"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 704 -152"
+"noise" "sound/metro/reinsamba_chimney_fire"
+"targetname" "sound_fire1"
+}
+{
+"classname" "target_location"
+"origin" "-128 744 -152"
+"message" "Crypte"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "1296 -239 -184"
+"message" "Catacombes"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "336 112 -184"
+"message" "Aqueduc"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "1888 -432 -184"
+"message" "Carriere"
+"count" "4"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "1856 -184 -392"
+"angle" "180"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "2072 -736 -408"
+"angle" "90"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "1816 -608 -224"
+}
+{
+"classname" "target_speaker"
+"origin" "-576 512 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "1920 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1264 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "384 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "896 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "1408 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-576 -960 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-576 -448 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-576 64 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "1536 -608 -200"
+"noise" "sound/metro/billy_magnum_drip"
+"targetname" "sound_cave1"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1856 -240 -192"
+"noise" "sound/metro/billy_magnum_drip"
+"targetname" "sound_cave1"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "2136 -528 -192"
+"noise" "sound/metro/billy_magnum_drip"
+"targetname" "sound_cave1"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1976 -608 -368"
+"noise" "sound/metro/billy_magnum_drip"
+"targetname" "sound_cave1"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1640 -320 -392"
+"noise" "sound/metro/billy_magnum_drip"
+"targetname" "sound_cave1"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-704 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-984 -1152 -248"
+"noise" "sound/metro/thedapperdan_sewer_drain"
+"targetname" "sound_sewer1"
+}
+{
+"classname" "target_speaker"
+"origin" "-624 512 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1016 -1056 -72"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "384 -1072 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "896 -1072 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "1408 -1072 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "1920 -1072 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-624 -448 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-624 64 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-560 -2272 384"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-672 880 -184"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-704 -2136 -248"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-560 -2272 -80"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-560 -2272 200"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-128 -1072 -160"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-528 -1056 40"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-800 -1056 96"
+"noise" "sound/metro/thedapperdan_sewer_drain-b"
+"targetname" "sound_sewer_B1"
+}
+{
+"classname" "target_speaker"
+"origin" "-672 -824 120"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "-672 1480 -32"
+"noise" "sound/metro/homejrande_water_swimming_pool_pipe"
+"targetname" "sound_pipe1"
+}
+{
+"classname" "target_speaker"
+"origin" "1136 -680 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "1016 112 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "944 -296 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "1256 -216 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "1440 -512 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_location"
+"origin" "-608 680 -176"
+"count" "4"
+"message" "Egouts Nord"
+}
+{
+"classname" "target_location"
+"origin" "120 -1152 -176"
+"count" "4"
+"message" "Egouts Est"
+}
+{
+"classname" "target_location"
+"origin" "-512 -2216 288"
+"count" "7"
+"message" "Escaliers egouts"
+}
+{
+"classname" "target_location"
+"origin" "-608 -336 -176"
+"count" "4"
+"message" "Egouts Nord"
+}
+{
+"classname" "target_location"
+"origin" "-608 24 -176"
+"count" "4"
+"message" "Egouts Nord"
+}
+{
+"classname" "target_location"
+"origin" "-648 -1056 -176"
+"count" "4"
+"message" "Collecteur"
+}
+{
+"classname" "target_location"
+"origin" "-536 -2128 -176"
+"count" "4"
+"message" "Escaliers"
+}
+{
+"classname" "func_timer"
+"origin" "-128 704 -128"
+"spawnflags" "1"
+"wait" "2"
+"target" "sound_fire1"
+}
+{
+"classname" "func_timer"
+"origin" "-704 -1152 -216"
+"target" "sound_sewer1"
+"spawnflags" "1"
+"wait" "2"
+}
+{
+"classname" "func_timer"
+"origin" "-704 -1120 -176"
+"target" "sound_sewer_B1"
+"spawnflags" "1"
+"wait" "10"
+"random" "5"
+}
+{
+"classname" "target_speaker"
+"origin" "616 -296 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "616 112 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "312 112 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "target_speaker"
+"origin" "-80 112 -176"
+"noise" "sound/metro/klangfabrik_stereowind01"
+"targetname" "sound_wind"
+}
+{
+"classname" "func_timer"
+"origin" "-704 -1088 -128"
+"target" "sound_pipe1"
+"spawnflags" "1"
+"wait" "90"
+"random" "30"
+}
+{
+"classname" "target_speaker"
+"origin" "2024 -512 -424"
+"noise" "sound/metro/reinsamba_chimney_fire"
+"targetname" "sound_fire1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1152 -1160 -184"
+"noise" "sound/metro/kollege_laundry_1"
+"wait" "60"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1152 -1144 -192"
+"noise" "sound/metro/kollege_laundry_4"
+"wait" "90"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1152 -1128 -192"
+"noise" "sound/metro/kollege_laundry_5"
+"wait" "100"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1152 -1128 -176"
+"noise" "sound/metro/kollege_laundry_3"
+"wait" "80"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1152 -1144 -176"
+"noise" "sound/metro/kollege_laundry_2"
+"wait" "70"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "1984 -1160 -184"
+"noise" "sound/metro/kollege_laundry_1"
+"wait" "60"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "1984 -1144 -192"
+"noise" "sound/metro/kollege_laundry_4"
+"wait" "90"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "1984 -1128 -192"
+"noise" "sound/metro/kollege_laundry_5"
+"wait" "100"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "1984 -1128 -176"
+"noise" "sound/metro/kollege_laundry_3"
+"wait" "80"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "1984 -1144 -176"
+"noise" "sound/metro/kollege_laundry_2"
+"wait" "70"
+"random" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "-328 -2056 32"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-760 -2056 -32"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-760 -2488 -96"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-760 -2056 224"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-328 -2056 288"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-760 -2488 160"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-328 -2488 96"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-1016 -776 -200"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-512 -2048 -136"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-600 -1728 -188"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-296 -1536 -188"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-328 -2488 -96"
+"noise" "sound/metro/randomroutine_neon"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "20"
+"model" "*5"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "20"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"wait" "9999"
+"team" "grillage"
+"targetname" "porte_grillage"
+"lip" "24"
+"soundPos2" "sound/metro/ashassin_take_porte"
+"sound1to2" "sound/metro/mikehirst_garage_door_opening_"
+"speed" "72"
+"spawnflags" "4"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"wait" "9999"
+"team" "grillage"
+"targetname" "porte_grillage"
+"lip" "24"
+"soundPos2" "sound/metro/ashassin_take_porte"
+"sound1to2" "sound/metro/mikehirst_garage_door_opening_"
+"speed" "72"
+"spawnflags" "4"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"wait" "-1"
+"target" "porte_grillage"
+"targetname" "porte_gril_trigger"
+"model" "*9"
+}
+{
+"classname" "trigger_equipment"
+"target" "porte_gril_trigger"
+"wait" "-1"
+"model" "*10"
+}
+{
+"classname" "target_speaker"
+"origin" "-1560 -112 632"
+"noise" "sound/metro/paris_notre_dame_02"
+"targetname" "sound_nd"
+}
+{
+"classname" "func_timer"
+"origin" "688 -112 616"
+"spawnflags" "1"
+"wait" "900"
+"target" "sound_nd"
+}
+{
+"classname" "target_speaker"
+"origin" "-1560 -128 632"
+"noise" "sound/metro/paris_plein_police"
+"targetname" "sound_police"
+}
+{
+"classname" "func_timer"
+"origin" "688 -128 616"
+"target" "sound_police"
+"wait" "600"
+"random" "60"
+"spawnflags" "1"
+}
+{
+"classname" "target_location"
+"origin" "1088 -1504 448"
+"message" "Escalators"
+"count" "1"
+}
+{
+"classname" "target_location"
+"origin" "832 -2672 344"
+"count" "7"
+"message" "Ligne 13"
+}
+{
+"classname" "target_location"
+"origin" "-40 -384 672"
+"count" "1"
+"message" "Entree est"
+}
+{
+"classname" "target_location"
+"origin" "-1048 184 512"
+"message" "Entree ouest"
+"count" "1"
+}
+{
+"classname" "target_location"
+"origin" "-1056 1312 336"
+"count" "1"
+"message" "Escaliers ligne 1"
+}
+{
+"classname" "target_location"
+"origin" "1968 -2240 176"
+"message" "Couloir ligne 13"
+"count" "7"
+}
+{
+"classname" "target_location"
+"origin" "8 -1936 280"
+"count" "7"
+"message" "Couloir ligne 1"
+}
+{
+"classname" "target_location"
+"origin" "-616 -288 328"
+"message" "Ventilation"
+"count" "7"
+}
+{
+"classname" "target_speaker"
+"origin" "0 -256 672"
+"noise" "sound/metro/fractal_dimension_low_freq_rumble"
+"targetname" "sound_vents"
+}
+{
+"classname" "target_speaker"
+"origin" "600 -96 616"
+"noise" "sound/metro/emmanuel_monaco_street_ambiance"
+"targetname" "sound_street"
+}
+{
+"classname" "target_speaker"
+"origin" "648 -96 632"
+"noise" "sound/metro/emmanuel_monaco_street_ambiance_1"
+"targetname" "sound_street_1"
+}
+{
+"classname" "target_speaker"
+"origin" "648 -128 632"
+"noise" "sound/metro/paris_plein_police"
+"targetname" "sound_police"
+}
+{
+"classname" "target_speaker"
+"origin" "648 -112 632"
+"noise" "sound/metro/paris_notre_dame_02"
+"targetname" "sound_nd"
+}
+{
+"classname" "target_location"
+"origin" "-616 -288 328"
+"message" "Ventilation"
+"count" "7"
+}
+{
+"classname" "trigger_multiple"
+"target" "door_vents"
+"wait" "-1"
+"model" "*11"
+}
+{
+"classname" "func_door_rotating"
+"targetname" "door_vents"
+"spawnflags" "36"
+"speed" "170"
+"rotatorAngle" "170"
+"origin" "-590 -770 100"
+"dmg" "1000"
+"wait" "9999"
+"sound1to2" "sound/metro/andriala_open_and.close.a.door"
+"soundPos2" "sound/metro/dobroide_metal01"
+"model" "*12"
+}
+{
+"classname" "target_location"
+"origin" "0 -40 120"
+"count" "7"
+"message" "Ligne 1"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-864 -832 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-696 1504 56"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-576 -928 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-576 -832 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-664 -832 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-768 -832 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_particle_system"
+"origin" "-128 704 -152"
+"psName" "metro/fire"
+}
+{
+"classname" "misc_particle_system"
+"origin" "2020 -512 -420"
+"psName" "metro/fire"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-712 288 624"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-328 288 624"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-520 288 624"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*13"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "16"
+"dmg" "1"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"target" "warning"
+"model" "*15"
+}
+{
+"classname" "target_print"
+"origin" "0 -944 80"
+"targetname" "warning"
+"spawnflags" "4"
+"message" "^3Warning: ^7Electric shock hazard !"
+}
+{
+"classname" "func_timer"
+"origin" "-1144 784 240"
+"wait" "4"
+"random" "3"
+"target" "nb_del"
+"spawnflags" "1"
+}
+{
+"classname" "target_delay"
+"origin" "-1168 816 240"
+"targetname" "nb_del"
+"target" "nbp"
+"wait" "1"
+}
+{
+"classname" "target_relay"
+"origin" "-1144 816 216"
+"targetname" "nb_del"
+"target" "nbp"
+}
+{
+"classname" "trigger_multiple"
+"target" "warning"
+"model" "*16"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "16"
+"dmg" "1"
+"model" "*17"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*18"
+}
+{
+"classname" "misc_light_flare"
+"origin" "2816 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "3328 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-576 -1152 129"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "1120 -952 -104"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-696 928 -88"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-696 1120 -24"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-696 1312 40"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "-584 -1336 -176"
+"radius" "16 0 0"
+"targetShaderName" "textures/metro/flare_02"
+}
+{
+"classname" "misc_light_flare"
+"origin" "2304 -2800 392"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+"angle" "90"
+}
+{
+"classname" "misc_light_flare"
+"origin" "1280 -1952 632"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "misc_light_flare"
+"origin" "1152 -1952 632"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "misc_light_flare"
+"origin" "1024 -1952 632"
+"targetShaderName" "textures/metro/flare_02"
+"radius" "16 0 0"
+}
+{
+"classname" "info_human_intermission"
+"origin" "-168 -712 656"
+"angles" "15 70 0"
+}
+{
+"classname" "info_alien_intermission"
+"origin" "2240 -688 -128"
+"angles" "160 330 180"
+}
+{
+"classname" "target_speaker"
+"origin" "0 -512 672"
+"noise" "sound/metro/fractal_dimension_low_freq_rumble"
+"targetname" "sound_vents"
+}
