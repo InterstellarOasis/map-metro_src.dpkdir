@@ -692,6 +692,7 @@ textures/metro/40c_e
 {
 	qer_editorimage textures/metro/40c_e
 	qer_alphafunc greater .5
+	surfaceparm alphashadow
 
 	cull disable
 	deformvertexes autosprite2
@@ -729,6 +730,7 @@ textures/metro/smallleaftree01_256
 {
 	qer_editorimage textures/metro/smallleaftree01_256
 	qer_alphafunc greater .5
+	surfaceparm alphashadow
 
 	cull disable
 	deformvertexes autosprite2
