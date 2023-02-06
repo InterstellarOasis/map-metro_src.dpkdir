@@ -1,6 +1,6 @@
 //SKY
 //LIGHTS
-//GFX 
+//GFX
 //CARS
 //PLANTS
 //M77
@@ -13,9 +13,7 @@
 //COMMON
 //FIRE LIGHT NOISE
 
-
-
-//*************************************** SKY *****************************************//
+// SKY
 
 textures/metro/skybox
 {
@@ -40,9 +38,7 @@ textures/metro/skybox
 	}
 }
 
-
-//*************************************** LIGHTS ***************************************//
-
+// LIGHTS
 
 textures/metro/sign_rouge
 {
@@ -59,7 +55,6 @@ textures/metro/sign_rouge
 	}
 }
 
-
 textures/metro/sign_vert
 {
 	qer_editorimage textures/metro/sign_vert
@@ -75,7 +70,6 @@ textures/metro/sign_vert
 	}
 }
 
-
 textures/metro/sign_25
 {
 	qer_editorimage textures/metro/sign_25
@@ -87,7 +81,6 @@ textures/metro/sign_25
 		map textures/metro/sign_25
 	}
 }
-
 
 textures/metro/kosad_neonwhite
 {
@@ -229,10 +222,7 @@ textures/metro/kosad_ocre_5
 	}
 }
 
-
-
-
-//***************************************** GFX *****************************************//
+// GFX
 
 textures/metro/kosad_fog
 {
@@ -281,18 +271,16 @@ textures/metro/pasbien
 	}
 }
 
-
 // From flap.shader by OverFlow
 textures/metro/sparkstreak_s
-{  
-  cull disable
-  {
-    map textures/metro/sparkstreak
+{
+	cull disable
+	{
+		map textures/metro/sparkstreak
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-    alphaGen vertex
-  }
+	alphaGen vertex
+	}
 }
-
 
 textures/metro/zinc_ed
 {
@@ -547,7 +535,7 @@ textures/metro/door007
 
 
 
-//*************************************** CARS **************************************//
+// CARS
 
 textures/metro/cars/austin
 {
@@ -687,7 +675,7 @@ textures/metro/cars/xsara-picasso
 	}
 }
 
-//*************************************** PLANTS **************************************//
+// PLANTS
 textures/metro/40c_e
 {
 	qer_editorimage textures/metro/40c_e
@@ -750,7 +738,7 @@ textures/metro/smallleaftree01_256
 
 
 
-//**************************************** MF77 *****************************************//
+// MF77
 
 textures/metro/m77-roue
 {
@@ -950,7 +938,7 @@ textures/metro/m77-cote3
 
 
 
-//*************************************** MATERIAL **************************************//
+// MATERIAL
 
 textures/metro/glassblock1
 {
@@ -997,7 +985,7 @@ textures/metro/kosad_window
 
 
 
-//*************************************** AD & SIGNAUX *********************************//
+// AD & SIGNAUX
 
 textures/metro/kosad_sortiepicto
 {
@@ -1591,7 +1579,7 @@ textures/metro/rfsp-alarme2l
 	}
 }
 
-//*************************************** PARIS ****************************************//
+// PARIS *
 
 textures/metro/kosad_eiffeltop
 {
@@ -1679,11 +1667,9 @@ textures/metro/rfsp-paris03b
 	}
 }
 
+// OBJECTS
 
-//*************************************** OBJECTS **************************************//
-
-
-                    //****** Plant_life ******//
+// Plant_life
 
 models/mapobjects/plant_life/fern_leaf
 {
@@ -1711,7 +1697,7 @@ models/mapobjects/plant_life/palm_leaf
 	}
 }
 
-                    //****** Voute ******//
+// Voute
 
 models/mapobjects/kosad/voute/e7brickfloor01
 {
@@ -1727,7 +1713,7 @@ models/mapobjects/kosad/voute/e7brickfloor01
 	}
 }
 
-                    //****** Boite 3 ******//
+// Boite 3
 
 models/mapobjects/kosad/conteneur/object023_3_p
 {
@@ -1743,7 +1729,7 @@ models/mapobjects/kosad/conteneur/object023_3_p
 	}
 }
 
-                    //****** Bouteille ******//
+// Bouteille
 
 models/mapobjects/kosad/bouteille/tour-du-roc
 {
@@ -1782,7 +1768,7 @@ models/mapobjects/kosad/bouteille/verre
 	}
 }
 
-                    //****** Luminaire ******//
+// Luminaire
 
 models/mapobjects/kosad/lumiere/glass03
 {
@@ -1813,8 +1799,7 @@ models/mapobjects/kosad/lumiere/dore
 	}
 }
 
-
-                    //****** Lanterne ******//
+// Lanterne
 
 models/mapobjects/kosad/lanterne/kosad_bougie2
 {
@@ -1912,9 +1897,8 @@ models/mapobjects/kosad/lanterne/lumierediffuse32
 	}
 }
 
+// Bougie
 
-                    //****** Bougie ******//
-                    
 //Backlight a effacer !!
 models/mapobjects/kosad/bougie/lumiere
 {
@@ -1945,7 +1929,7 @@ models/mapobjects/kosad/bougie/kosad_flammebougie
 	}
 }
 
-                    //****** Lustre ******//
+// Lustre
 
 models/mapobjects/kosad/lustre/flame1
 {
@@ -1971,12 +1955,9 @@ models/mapobjects/kosad/lustre/wood1toplit
 	}
 }
 
-
-//Dasprid.shader
-// ======================================================================
+// Dasprid.shader
 // Wall Torch Stuff - Thanks to Sockter
-// ======================================================================
-//Edited by KOsAD
+// Edited by KOsAD
 textures/metro/torchflame
 {
 	qer_editorimage textures/metro/flame1
@@ -2006,7 +1987,6 @@ textures/metro/torchflame
 	}
 }
 
-
 textures/metro/wood1toplit
 {
 	qer_editorimage textures/metro/wood1toplit
@@ -2028,11 +2008,7 @@ textures/metro/wood1toplit
 	}
 }
 
-
-
-
-//*************************************** NATURE **************************************//
-
+// NATURE
 
 //vers l'ouest
 textures/metro/kosad_eauegoutsl
@@ -2147,8 +2123,7 @@ textures/metro/kosad_eauegouts
 	}
 }
 
-
-//*************************************** EVILAIR **************************************//
+// EVILAIR
 
 textures/metro/e6bsegrtflr128
 {
@@ -2172,8 +2147,8 @@ textures/metro/e6bsegrtflr128
 	}
 }
 
-//karith.shader
-//by Evillair -c
+// karith.shader
+// by Evillair
 textures/metro/e6metalfan_s2
 {
 	qer_editorimage textures/metro/e6metalfan
@@ -2192,7 +2167,7 @@ textures/metro/e6metalfan_s2
 	}
 }
 
-//transparent
+// transparent
 textures/metro/e6metalfan_s2_t
 {
 	qer_editorimage textures/metro/e6metalfan
@@ -2216,7 +2191,6 @@ textures/metro/e6metalfan_s2_t
 		blendfunc filter
 	}
 }
-
 
 textures/metro/e6grtflr2bl
 {
@@ -2263,7 +2237,6 @@ textures/metro/ex_floor_grate03_d
 		blendfunc filter
 	}
 }
-
 
 textures/metro/e7slight
 {
@@ -2336,7 +2309,6 @@ textures/metro/e6horzlight
 	}
 }
 
-
 textures/metro/e7mlight
 {
 	qer_editorimage textures/metro/e7mlight
@@ -2359,7 +2331,6 @@ textures/metro/e7mlight
 		blendfunc add
 	}
 }
-
 
 textures/metro/e6v_light_sm
 {
@@ -2407,8 +2378,7 @@ textures/metro/e6v_light_sm_10
 	}
 }
 
-
-//*************************************** COMMON **************************************//
+// COMMON
 
 textures/metro/kosad_filtre
 {
@@ -2467,10 +2437,9 @@ textures/metro/ladder
 	surfaceparm playerclip
 }
 
+// FIRE LIGHT NOISE
 
-//******************************* FIRE LIGHT NOISE ************************************//
-
-																												// Crypte ********************
+// Crypte
 
 textures/metro/e7brickfloor01
 {
@@ -2488,7 +2457,6 @@ textures/metro/e7brickfloor01
 	}
 }
 
-
 textures/metro/misc018
 {
 	qer_editorimage textures/metro/misc018
@@ -2504,7 +2472,6 @@ textures/metro/misc018
 		blendfunc filter
 	}
 }
-
 
 textures/metro/kosad_banniere
 {
@@ -2639,7 +2606,6 @@ textures/metro/e7bmtrim
 	}
 }
 
-
 textures/metro/e7bricks01
 {
 	qer_editorimage textures/metro/e7bricks01
@@ -2716,7 +2682,7 @@ textures/metro/kosad_brique2b
 	}
 }
 
-																												// Aqueduc ********************
+// Aqueduc
 
 textures/metro/rock29t
 {
@@ -2804,7 +2770,7 @@ textures/metro/rock10c
 	}
 }
 
-																												// Catacombe & grotte *********
+// Catacombe & grotte
 
 textures/metro/rock_005
 {
