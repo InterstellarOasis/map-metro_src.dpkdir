@@ -15,11 +15,11 @@ Credits
 
 Unvanquished port:
 
-* Thomas “illwieckz” Debesse <hidden mail="dev@illwieckz.net"/> (http://gg.illwieckz.net)
+* Thomas “illwieckz” Debesse <hidden mail="dev [ad] illwieckz.net"/> (http://gg.illwieckz.net)
 
 Mapping, models, textures, shaders:
 
-* KOsAD <hidden mail="kosad93@gmail.com"/> (http://kosad93.googlepages.com/metro.html)
+* KOsAD <hidden mail="kosad93 [ad] gmail.com"/> (http://kosad93.googlepages.com/metro.html)
 
 Models:
 
@@ -27,11 +27,11 @@ Models:
 
 Textures, shaders:
 
-* Randy “ydnar” Redding <hidden mail="ydnar@shaderlab.com/"> (http://www.shaderlab.com)
-* berneyboy <hidden email="berneyboy@hotmail.com"/>
-* Fabrice <hidden email="fabo006@hotmail.com"/>
-* noah <hidden email="quachnoah@hotmail.com"/>
-* PkVintuitkat <hidden email="pkvintuitkat@wanadoo.fr"/>
+* Randy “ydnar” Redding <hidden mail="ydnar [ad] shaderlab.com/"/> (http://www.shaderlab.com)
+* berneyboy <hidden mail="berneyboy [ad] hotmail.com"/>
+* Fabrice <hidden mail="fabo006 [ad] hotmail.com"/>
+* noah <hidden mail="quachnoah [ad] hotmail.com"/>
+* PkVintuitkat <hidden mail="pkvintuitkat [ad] wanadoo.fr"/>
 * Jan “Stannum” Van der Weg (http://janvanderweg.com/)
 * Robin “OverFlow” Marshall (http://bobbin.vilkacis.net)
 * Simon “sock” O'Callaghan (http://www.simonoc.com/)
